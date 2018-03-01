@@ -1,4 +1,30 @@
-h1 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: 500;
+}
+
+.toggle {
+    margin: 0;
+    transition-duration: 500ms;
+}
+
+.toggle:hover {
+    cursor: pointer;
+    color: #777;
+}
+
+.togglebox {
+    display: none;
+    padding: 10px;
+}
