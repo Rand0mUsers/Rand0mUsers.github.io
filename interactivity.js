@@ -4,7 +4,7 @@ $(document).ready(function () {
     // click handler for dropdowns
     $(".toggle").on("click", function() {
         // slide-toggle the content
-        $(this).next().slideToggle(1000);
+        $(this).next().slideToggle(200);
 
         // toggle the little triangle appropriately
         if ($(this)[0].innerHTML.startsWith("▸")) {

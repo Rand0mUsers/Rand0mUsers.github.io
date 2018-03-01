@@ -45,6 +45,7 @@ figure, img {
     color: inherit;
     text-decoration: inherit;
     font-weight: 500;
+    font-size: 0.8em;
 }
 
 .toggle {
@@ -59,7 +60,6 @@ figure, img {
 
 .togglebox {
     display: none;
-    padding: 10px;
 }
 
 .breakfloat {
