@@ -3,12 +3,45 @@ h1, h2 {
     font-weight: 500;
 }
 
-p, li {
+p, li, figcaption {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 a {
+    color: inherit;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
+figure, img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1020px) {
+    .floatleft {
+        float: left;
+    }
+    .textcon {
+        width: 580px;
+    }
+    .floatright {
+        float: right;
+    }
+    h2 {
+        clear: both;
+    }
+}
+
+.intro {
+    font-size: 1.2em;
+}
+
+.ref {
     color: inherit;
     text-decoration: inherit;
     font-weight: 500;
@@ -27,4 +60,13 @@ a {
 .togglebox {
     display: none;
     padding: 10px;
+}
+
+.breakfloat {
+    clear: both;
+}
+
+#warning {
+    float: right;
+    width: 100px;
 }
