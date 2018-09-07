@@ -1,2 +1,2 @@
-# Rand0mUsers.github.io
+# SeanGeb.github.io
 My portfolio.
